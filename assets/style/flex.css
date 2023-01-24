@@ -15,14 +15,19 @@
     row-gap: .5rem;
 }
 
+/* Destaques */
+
 .destaques {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .destaques__barra{
     flex-grow: 1;
 }
+
+/* Eventos */
 
 .eventos__lista {
     display: flex;
@@ -37,6 +42,8 @@
     max-width: 400px;
 }
 
+/*Agenda ATIVIDADE PARA SABER MAIS */
+
 .agenda__lista {
     display: flex;
     flex-wrap: wrap;
@@ -49,8 +56,23 @@
     flex-grow: 1;
 }
 
+/*fotter */
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape__logo {
+    align-self: end;
+}
+
+
 @media(min-width: 720px){
+
 /* Cabeçalho */
+    
     .menu{
         column-gap: 75px;
     }
@@ -61,10 +83,14 @@
         row-gap: 1rem;
     }
 
+/* Eventos */
+
     .eventos__lista {
         justify-content: end;
     }
-    
+
+/*Agenda ATIVIDADE PARA SABER MAIS */
+
     .agenda__lista {
         justify-content: end;
     }
@@ -73,7 +99,9 @@
 }
 
 @media (min-width: 1440px) {
+
 /* Cabeçalho */
+    
     .menu{
         column-gap: 120px;
         flex-wrap: nowrap;
