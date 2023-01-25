@@ -6,8 +6,8 @@ Projeto de página em HTML e CSS3, desenvolvimento da página Culturama, para di
 
 ✔️ Tecnologias utilizadas
 
-HTML5 
-CSS3 
-GRID
-FLEXBOX
-Visual Studio
+* HTML5;
+* CSS3;
+* GRID;
+* Flexbox;
+* Visual Studio.
